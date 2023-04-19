@@ -1,5 +1,5 @@
 {
-    "name": "execut/odata-1c",
+    "name": "ildarbahtigozin/odata-1c",
     "description": "ODATA protocol client adopted to use with 1C",
     "type": "library",
     "license": "MIT",
@@ -16,6 +16,9 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.2"
-    }
+        "guzzlehttp/guzzle": "^7.2"
+    },
+	"require-dev": {
+    "phpunit/phpunit": "^8.1"
+  }
 }
